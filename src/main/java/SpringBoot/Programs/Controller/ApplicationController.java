@@ -18,4 +18,8 @@ public class ApplicationController {
 		return ResponseEntity.ok("Sushama Kangude");
 	}
 
+	@GetMapping("thirdapi")
+	public ResponseEntity<String>ThirdAPI(){
+		return ResponseEntity.ok("Springboot Basics");
+	}
 }
